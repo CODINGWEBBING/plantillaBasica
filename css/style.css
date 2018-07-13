@@ -1,0 +1,238 @@
+/**
+* RESET
+********/
+
+html,body,div,span,applet,object,iframe,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,dl,dt,dd,ol,ul,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,label,legend,p,blockquote,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;font-weight:inherit;font-style:inherit;font-size:100%;font-family:inherit;vertical-align:baseline}
+
+/**
+* TYPO
+********/
+
+@font-face {
+    font-family: 'VWHeadWeb-Bold';
+    src: url('https://services.serving-sys.com/custprojassets/prd/features/feeds/1533/VWHeadWeb-Bold.eot.dat');
+    src: url('https://services.serving-sys.com/custprojassets/prd/features/feeds/1533/VWHeadWeb-Bold.eot.dat?#iefix') format('embedded-opentype'),
+         url('https://services.serving-sys.com/custprojassets/prd/features/feeds/1533/VWHeadWeb-Bold.woff.dat') format('woff'),
+         url('https://services.serving-sys.com/custprojassets/prd/features/feeds/1533/VWHeadWeb-Bold.ttf.dat') format('truetype');
+
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'VWHeadWeb-Regular';
+    src: url('https://services.serving-sys.com/custprojassets/prd/features/feeds/1533/VWHeadWeb-Regular.eot.dat');
+    src: url('https://services.serving-sys.com/custprojassets/prd/features/feeds/1533/VWHeadWeb-Regular.eot.dat?#iefix') format('embedded-opentype'),
+         url('https://services.serving-sys.com/custprojassets/prd/features/feeds/1533/VWHeadWeb-Regular.woff.dat') format('woff'),
+         url('https://services.serving-sys.com/custprojassets/prd/features/feeds/1533/VWHeadWeb-Regular.ttf.dat') format('truetype');
+
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'VWHeadWeb-Light';
+    src: url('https://services.serving-sys.com/custprojassets/prd/features/feeds/1533/VWHeadWeb-Light_eot.dat');
+    src: url('https://services.serving-sys.com/custprojassets/prd/features/feeds/1533/VWHeadWeb-Light_eot.dat?#iefix') format('embedded-opentype'),
+         url('https://services.serving-sys.com/custprojassets/prd/features/feeds/1533/VWHeadWeb-Light_woff.dat') format('woff'),
+         url('https://services.serving-sys.com/custprojassets/prd/features/feeds/1533/VWHeadWeb-Light_ttf.dat') format('truetype'),
+         url('https://services.serving-sys.com/custprojassets/prd/features/feeds/1533/VWHeadWeb-Light_svg.dat') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/**
+* CONTENT 
+********/
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body,html {
+    -webkit-font-smoothing: subpixel-antialiased;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+img {
+    image-rendering: -moz-crisp-edges;       
+    image-rendering:   -o-crisp-edges;         
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: crisp-edges;
+    -ms-interpolation-mode: nearest-neighbor; 
+}
+
+/**
+* PRELOAD IMAGEs
+********/
+
+body:after {
+    content:url('') ;
+    display:none;
+}
+
+/**
+* CONTENT
+********/
+
+#wrapper {
+    background-image: url('');
+    background: white; /* change color or remove*/
+    background-size: 300px 600px;
+    border: 1px solid black;
+    position: absolute;
+    z-index: 0;
+    overflow: hidden;
+    width: 298px;
+    height: 598px;
+}
+
+/**
+* FOOTER
+********/
+
+/** 
+* LEGAL
+*******/
+
+#IdLegal{
+    font-family: 'VWHeadWeb-Regular';
+    position: absolute;
+    top: 8px;
+    left: 9px;
+    text-decoration: underline;
+    text-transform: uppercase;
+    z-index: 99999;
+    color: #111111;
+    font-size: 8px;
+    cursor: pointer;
+}
+
+#IdLegal img {
+    width: 73px;
+    height: 8px;
+}
+
+#legal {
+    width: 300px;
+    height: 600px;
+    top: 0px;
+    z-index: 99999;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 1);
+    color: #fff;
+    left: 300px;
+}
+
+#legal p {
+    width: 265px;
+    height: 380px;
+    font-family: Arial, Helvetica;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 1.6;
+    margin: 68px 5px 9px 16px;
+    text-align: left;
+}
+
+#close {
+    position: absolute;
+    height: 22px;
+    width: 22px;
+    z-index: 99999;
+    font-size: 13px;
+    top: 10px;
+    left: 10px;
+    color: #fff;
+    background-image: url("../images/close.svg");
+    background-position: top left;
+    background-size: 22px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+/** 
+* Logo
+*******/
+
+
+#logoVw {
+    position: absolute;
+    left: 229px;
+    z-index: 99999;
+    top: 527px;
+}
+
+
+/* NO RETINA */
+
+@media
+only screen and (-webkit-max-device-pixel-ratio: 1)       ,
+only screen and (   max--moz-device-pixel-ratio: 1)       ,
+only screen and (    -ms-max-device-pixel-ratio: 1)       ,
+only screen and (     -o-max-device-pixel-ratio: 1)       ,
+only screen and (        max-device-pixel-ratio: 1)       ,
+only screen and (                max-resolution: 100dpi)  ,
+only screen and (                max-resolution: 1dppx)   {
+
+    #logoVw {
+        background-image: url('../images/logoVW@1.png');
+        background-size: 55px 58px;
+        width: 55px;
+        height: 58px;
+    }
+    
+}
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 1.1)     ,
+only screen and (   min--moz-device-pixel-ratio: 1.1)     ,
+only screen and (    -ms-min-device-pixel-ratio: 1.1)     ,
+only screen and (     -o-min-device-pixel-ratio: 2/1.9)   ,
+only screen and (        min-device-pixel-ratio: 1.1)     ,
+only screen and (                min-resolution: 101dpi)  ,
+only screen and (                min-resolution: 1.1dppx) {
+    
+    #logoVw {
+        background-image: url('../images/logoVW@2.png');
+        background-size: 55px 58px;
+        width: 55px;
+        height: 58px;
+    }
+ 
+}
+
+/** 
+* Animations 
+*******/
+
+.fadeInLegal {
+    animation-duration: .5s;
+    animation-name: fadeInLegal;
+    animation-fill-mode: both;
+}
+
+@keyframes fadeInLegal {
+    0% {
+        left: 300px;
+    }
+    100% {
+        left: 0px;
+    }
+}
+
+.fadeOutLegal {
+    animation-duration: .5s;
+    animation-name: fadeOutLegal;
+}
+
+@keyframes fadeOutLegal {
+    0% {
+        left: 0px;
+    }
+    100% {
+        left: 300px;
+    }
+}
