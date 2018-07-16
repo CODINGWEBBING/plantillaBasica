@@ -1,0 +1,11 @@
+$color : red;
+$colorP : blue;
+
+body {
+    background: $color;
+    p {
+        color: $colorP;
+        flex-direction: column;
+    }
+ 
+}
