@@ -16,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/enzo77/plantillaBasica/issues"
   },
-  "homepage": "https://github.com/enzo77/plantillaBasica#readme"
+  "homepage": "https://github.com/enzo77/plantillaBasica#readme",
+  "devDependencies": {
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-sass": "^4.0.1",
+    "gulp-util": "^3.0.8"
+  },
+  "dependencies": {}
 }
