@@ -73,13 +73,24 @@ body:after {
     display:none;
 }
 
+
+/**
+* HEADER
+********/
+
+.header {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
 /**
 * CONTENT
 ********/
 
-#wrapper {
+.wrapper {
     background-image: url('');
-    background: white; /* change color or remove*/
+    background: white; 
     background-size: 300px 600px;
     border: 1px solid black;
     position: absolute;
