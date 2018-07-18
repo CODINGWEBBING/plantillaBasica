@@ -1,5 +1,6 @@
 $color : red;
 $colorP : blue;
+$colorTxt : #111111;
 
 body {
     background: $color;
@@ -7,5 +8,5 @@ body {
         color: $colorP;
         flex-direction: column;
     }
- 
+
 }
