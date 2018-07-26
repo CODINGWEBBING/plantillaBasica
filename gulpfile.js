@@ -22,11 +22,11 @@ gulp.task('sass', () => {
 
 gulp.task('es6', () => { 
     gulp.src('srcjs/*.js')    
-    .pipe(babel({       
-       "presets": ["env"]
-    }))  
+        .pipe(babel({       
+            "presets": ["env"]
+        }))  
     
-    .pipe(gulp.dest('es5'));
+        .pipe(gulp.dest('es5'));
 });
 
 gulp.task('watch', ['sass'], ()=>  { 
