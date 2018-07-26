@@ -18,6 +18,6 @@ gulp.task('sass', ()=> {
 
 
 gulp.task('watch', ['sass'], ()=>  { 
-  gulp.watch('./scss/*.scss', ['sass']); 
-  // Other watchers
- });
+    gulp.watch('./scss/*.scss', ['sass']); 
+    // Other watchers
+});
