@@ -21,7 +21,7 @@ gulp.task('sass', () => {
 });
 
 gulp.task('es6', () => { 
-    gulp.src('src/*.js')    
+    gulp.src('srcjs/*.js')    
     .pipe(babel({       
        "presets": ["env"]
     }))  

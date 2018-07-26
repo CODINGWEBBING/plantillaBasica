@@ -1,12 +1,10 @@
+@include meyer-reset;
+
+/* Colors */
 $color : red;
 $colorP : blue;
 $colorTxt : #111111;
 
-body {
-    background: $color;
-    p {
-        color: $colorP;
-        flex-direction: column;
-    }
-
-}
+/* Banner size */
+$main_width : 300px;
+$main_height : 600px;
